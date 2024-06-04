@@ -1,9 +1,9 @@
 const pinturas = [
   {
-    id: 1,
+    id: "1",
     name: "La noche estrellada",
     shortDescription: "Una famosa pintura de Vincent van Gogh",
-    description: "La noche estrellada es una de las obras más famosas de Vincent van Gogh. Representa una interpretación soñadora de la vista desde la habitación del asilo del artista en Saint-Rémy-de-Provence durante la noche, aunque fue pintada de memoria durante el día.",
+    description: "La noche estrellada es una de las obras más famosas de Vincent van Gogh. Representa una interpretación soñadora de la vista desde la habitación del asilo del artista en Saint-Rémy-de-Provence durante la noche. La pintura captura el cielo nocturno con remolinos y estrellas brillantes, creando un efecto hipnótico. Aunque fue pintada de memoria durante el día, refleja la lucha interna y la esperanza del artista.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
     author: "Vincent van Gogh",
     year: 1889,
@@ -16,10 +16,10 @@ const pinturas = [
     extraInfo: "La pintura fue creada durante la estancia de Van Gogh en el asilo de Saint-Paul-de-Mausole."
   },
   {
-    id: 2,
+    id: "2",
     name: "La Mona Lisa",
     shortDescription: "Un retrato pintado por Leonardo da Vinci",
-    description: "La Mona Lisa es un retrato de medio cuerpo pintado por el artista italiano Leonardo da Vinci. Se considera una obra maestra arquetípica del Renacimiento italiano y ha sido descrita como 'la obra de arte más conocida, la más visitada, la más escrita, la más cantada y la más parodiada del mundo'.",
+    description: "La Mona Lisa es un retrato de medio cuerpo pintado por el artista italiano Leonardo da Vinci. Se considera una obra maestra arquetípica del Renacimiento italiano. La pintura es famosa por la expresión enigmática de la modelo, conocida como la Gioconda, y por el uso innovador del sfumato. Ha sido descrita como 'la obra de arte más conocida, la más visitada, la más escrita, la más cantada y la más parodiada del mundo'.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/73/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%2C_Paris%29.jpg",
     author: "Leonardo da Vinci",
     year: 1503,
@@ -31,10 +31,10 @@ const pinturas = [
     }
   },
   {
-    id: 3,
+    id: "3",
     name: "El Grito",
     shortDescription: "Una icónica obra de Edvard Munch",
-    description: "El Grito es una serie de cuadros del artista noruego Edvard Munch, creada en 1893. La pintura muestra una figura con una expresión de angustia y horror en un paisaje que parece vibrar con colores intensos.",
+    description: "El Grito es una serie de cuadros del artista noruego Edvard Munch, creada en 1893. La pintura muestra una figura con una expresión de angustia y horror en un paisaje que parece vibrar con colores intensos. Esta obra se ha convertido en un símbolo universal de la ansiedad humana, reflejando el profundo impacto emocional del aislamiento y la desesperación.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png",
     author: "Edvard Munch",
     year: 1893,
@@ -46,10 +46,10 @@ const pinturas = [
     }
   },
   {
-    id: 4,
+    id: "4",
     name: "La última cena",
     shortDescription: "Una obra maestra de Leonardo da Vinci",
-    description: "La última cena es una pintura mural de Leonardo da Vinci, creada entre 1495 y 1498. Representa la escena de la última cena de Jesús con sus discípulos, una de las imágenes más icónicas del arte religioso.",
+    description: "La última cena es una pintura mural de Leonardo da Vinci, creada entre 1495 y 1498. Representa la escena de la última cena de Jesús con sus discípulos, una de las imágenes más icónicas del arte religioso. La composición captura el momento en que Jesús anuncia que uno de sus discípulos lo traicionará, y cada apóstol reacciona con emociones distintas.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/300px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
     author: "Leonardo da Vinci",
     year: 1498,
@@ -61,10 +61,10 @@ const pinturas = [
     }
   },
   {
-    id: 5,
+    id: "5",
     name: "La persistencia de la memoria",
     shortDescription: "Una pintura de Salvador Dalí",
-    description: "La persistencia de la memoria es una pintura de 1931 del artista Salvador Dalí y una de sus obras más reconocibles. Se exhibió por primera vez en la Galería Julien Levy en 1932 y ha estado en la colección del Museo de Arte Moderno (MoMA) en Nueva York desde 1934.",
+    description: "La persistencia de la memoria es una pintura de 1931 del artista Salvador Dalí y una de sus obras más reconocibles. Se exhibió por primera vez en la Galería Julien Levy en 1932 y ha estado en la colección del Museo de Arte Moderno (MoMA) en Nueva York desde 1934. La obra presenta relojes derretidos en un paisaje onírico, simbolizando la relatividad del tiempo y la persistencia de los recuerdos.",
     imageUrl: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbnljLTItMjY4LmpwZyIsInJlc2l6ZSw4MDAiXX0.oHuiNXMeCqBT1fa5I9ddteiMiKkLQ_e1lyF6l8uUsWo.jpg",
     author: "Salvador Dalí",
     year: 1931,
@@ -76,10 +76,10 @@ const pinturas = [
     }
   },
   {
-    id: 6,
+    id: "6",
     name: "Guernica",
     shortDescription: "Una poderosa obra de Pablo Picasso",
-    description: "Guernica es un famoso mural pintado por Pablo Picasso en 1937. La obra es un poderoso testimonio contra la guerra y representa el bombardeo de la ciudad vasca de Guernica durante la Guerra Civil Española.",
+    description: "Guernica es un famoso mural pintado por Pablo Picasso en 1937. La obra es un poderoso testimonio contra la guerra y representa el bombardeo de la ciudad vasca de Guernica durante la Guerra Civil Española. Con su estilo cubista y sus figuras distorsionadas, la pintura captura el horror y la tragedia de la guerra, convirtiéndose en un ícono del arte pacifista.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/640px-Mural_del_Gernika.jpg",
     author: "Pablo Picasso",
     year: 1937,
@@ -92,10 +92,10 @@ const pinturas = [
     extraInfo: "La obra fue encargada para la Exposición Internacional de París de 1937."
   },
   {
-    id: 7,
+    id: "7",
     name: "El nacimiento de Venus",
     shortDescription: "Una obra renacentista de Sandro Botticelli",
-    description: "El nacimiento de Venus es una pintura del artista renacentista Sandro Botticelli, creada en la década de 1480. Representa a Venus, la diosa romana del amor, emergiendo del mar como una mujer adulta.",
+    description: "El nacimiento de Venus es una pintura del artista renacentista Sandro Botticelli, creada en la década de 1480. Representa a Venus, la diosa romana del amor, emergiendo del mar como una mujer adulta. La obra es famosa por su belleza idealizada y la elegancia de sus líneas, capturando la esencia del Renacimiento con su enfoque en la mitología clásica y la armonía estética.",
     imageUrl: "https://www.visituffizi.org/img/artworks/botticelli-birth-venus.jpg",
     author: "Sandro Botticelli",
     year: 1485,
@@ -107,10 +107,10 @@ const pinturas = [
     }
   },
   {
-    id: 8,
+    id: "8",
     name: "Las Meninas",
     shortDescription: "Una obra maestra de Diego Velázquez",
-    description: "Las Meninas es una pintura de Diego Velázquez, creada en 1656. La obra es conocida por su compleja composición y su innovador uso de la perspectiva. Representa a la infanta Margarita Teresa y sus damas de compañía en una escena del palacio real.",
+    description: "Las Meninas es una pintura de Diego Velázquez, creada en 1656. La obra es conocida por su compleja composición y su innovador uso de la perspectiva. Representa a la infanta Margarita Teresa y sus damas de compañía en una escena del palacio real. Velázquez se retrató a sí mismo pintando la escena, desafiando las convenciones artísticas de la época.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/99/Las_Meninas_01.jpg",
     author: "Diego Velázquez",
     year: 1656,
@@ -122,41 +122,40 @@ const pinturas = [
     }
   },
   {
-    id: 9,
+    id: "9",
     name: "El jardín de las delicias",
     shortDescription: "Un tríptico de Hieronymus Bosch",
-    description: "El jardín de las delicias es un tríptico pintado por Hieronymus Bosch entre 1490 y 1510. La obra es conocida por su detallada y compleja representación de escenas bíblicas y simbólicas, incluyendo el Jardín del Edén y el Infierno.",
-    imageUrl: "https://cdn.culturagenial.com/es/imagenes/el-bosco-y-el-jardin-de-las-delicias-historia-y-analisis-og.jpg",
+    description: "El jardín de las delicias es un tríptico del pintor neerlandés Hieronymus Bosch, creado alrededor de 1490-1510. La obra muestra una visión surrealista del paraíso, la vida terrenal y el infierno. Es conocida por sus detalles fantásticos y su simbolismo complejo, que ha sido interpretado de diversas maneras a lo largo de los siglos.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jardin_delicias.jpg",
     author: "Hieronymus Bosch",
-    year: 1500,
+    year: 1505,
     style: "Renacimiento del Norte",
     facts: {
       location: "Museo del Prado, Madrid",
       medium: "Óleo sobre tabla",
       dimensions: "220 cm × 389 cm"
-    },
-    extraInfo: "El tríptico se cierra mostrando una imagen gris y monocromática del tercer día de la creación del mundo."
+    }
   },
   {
-    id: 10,
+    id: "10",
     name: "La joven de la perla",
-    shortDescription: "Una pintura de Johannes Vermeer",
-    description: "La joven de la perla, también conocida como La muchacha con el turbante, es una pintura de Johannes Vermeer, creada alrededor de 1665. La obra es famosa por su uso magistral de la luz y la representación detallada de la joven con una perla en la oreja.",
-    imageUrl: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvcGVybGEuanBnIiwicmVzaXplLDIwMDAsMjAwMCJdfQ.P7QSbpwRsVYrcTORhHoI3q-qFjHhjv2DRE5oPeGoi00.jpg",
+    shortDescription: "Una obra de Johannes Vermeer",
+    description: "La joven de la perla es una pintura de Johannes Vermeer, creada alrededor de 1665. La obra, también conocida como 'La Mona Lisa del Norte', es famosa por su luminosidad y el uso magistral de la luz y la sombra. El retrato muestra a una joven con un turbante exótico y un pendiente de perla, con una expresión enigmática que ha capturado la imaginación de los espectadores durante siglos.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg",
     author: "Johannes Vermeer",
     year: 1665,
     style: "Barroco",
     facts: {
-      location: "Museo Mauritshuis, La Haya",
+      location: "Mauritshuis, La Haya",
       medium: "Óleo sobre lienzo",
       dimensions: "44.5 cm × 39 cm"
     }
   },
   {
-    id: 11,
+    id: "11",
     name: "El beso",
     shortDescription: "Una obra icónica de Gustav Klimt",
-    description: "El beso es una pintura del artista simbolista Gustav Klimt, creada entre 1907 y 1908. La obra muestra a una pareja abrazándose, con elaborados patrones dorados y geométricos que los envuelven.",
+    description: "El beso es una pintura del artista simbolista Gustav Klimt, creada entre 1907 y 1908. La obra muestra a una pareja abrazándose, con elaborados patrones dorados y geométricos que los envuelven. La pintura es una celebración del amor y la intimidad, utilizando el dorado para crear una atmósfera etérea y casi divina. Es una de las obras más reconocidas y reproducidas de Klimt.",
     imageUrl: "https://media.admagazine.com/photos/618a648c938f88774ad53f26/master/w_1600%2Cc_limit/75326.jpg",
     author: "Gustav Klimt",
     year: 1908,
@@ -168,10 +167,10 @@ const pinturas = [
     }
   },
   {
-    id: 12,
+    id: "12",
     name: "La creación de Adán",
     shortDescription: "Una parte de la Capilla Sixtina de Miguel Ángel",
-    description: "La creación de Adán es un fresco pintado por Miguel Ángel alrededor de 1512. Es una de las escenas más famosas de la bóveda de la Capilla Sixtina y representa el momento en que Dios da vida a Adán.",
+    description: "La creación de Adán es un fresco pintado por Miguel Ángel alrededor de 1512. Es una de las escenas más famosas de la bóveda de la Capilla Sixtina y representa el momento en que Dios da vida a Adán. La obra es conocida por la poderosa imagen de las manos casi tocándose, simbolizando el acto divino de la creación, y es una de las obras más icónicas del Renacimiento.",
     imageUrl: "https://medialab.unmsm.edu.pe/chiqaqnews/wp-content/uploads/2021/01/adan.jpg",
     author: "Miguel Ángel",
     year: 1512,
@@ -183,10 +182,10 @@ const pinturas = [
     }
   },
   {
-    id: 13,
+    id: "13",
     name: "La ronda de noche",
     shortDescription: "Una pintura de Rembrandt",
-    description: "La ronda de noche es una famosa pintura de Rembrandt, creada en 1642. La obra representa a la milicia cívica de Ámsterdam en una escena animada y dinámica.",
+    description: "La ronda de noche es una famosa pintura de Rembrandt, creada en 1642. La obra representa a la milicia cívica de Ámsterdam en una escena animada y dinámica. Con su uso innovador de la luz y la sombra, Rembrandt da vida a la escena nocturna, destacando a los personajes principales con una luz dramática. Es una de las obras más destacadas del Barroco y muestra el talento de Rembrandt en la representación de la vida cotidiana.",
     imageUrl: "https://example.com/la-ronda-de-noche.jpg",
     author: "Rembrandt",
     year: 1642,
@@ -198,10 +197,10 @@ const pinturas = [
     }
   },
   {
-    id: 14,
+    id: "14",
     name: "La libertad guiando al pueblo",
     shortDescription: "Una obra emblemática de Eugène Delacroix",
-    description: "La libertad guiando al pueblo es una pintura de Eugène Delacroix, creada en 1830. La obra conmemora la Revolución de Julio en Francia y muestra a la diosa de la libertad liderando al pueblo sobre las barricadas.",
+    description: "La libertad guiando al pueblo es una pintura de Eugène Delacroix, creada en 1830. La obra conmemora la Revolución de Julio en Francia y muestra a la diosa de la libertad liderando al pueblo sobre las barricadas. Es una representación poderosa del espíritu revolucionario y un símbolo perdurable de libertad y resistencia. La figura de la Libertad es alegórica y ha influido en muchas representaciones de luchas por la libertad.",
     imageUrl: "https://example.com/la-libertad-guiando-al-pueblo.jpg",
     author: "Eugène Delacroix",
     year: 1830,
@@ -213,10 +212,10 @@ const pinturas = [
     }
   },
   {
-    id: 15,
+    id: "15",
     name: "El hijo del hombre",
     shortDescription: "Una pintura surrealista de René Magritte",
-    description: "El hijo del hombre es una famosa pintura de René Magritte, creada en 1964. La obra muestra a un hombre con un sombrero de bombín, cuyo rostro está cubierto por una manzana verde flotante.",
+    description: "El hijo del hombre es una famosa pintura de René Magritte, creada en 1964. La obra muestra a un hombre con un sombrero de bombín, cuyo rostro está cubierto por una manzana verde flotante. La imagen enigmática y provocativa desafía las percepciones y plantea preguntas sobre la identidad y la realidad. Esta obra es una de las más icónicas del surrealismo y refleja la habilidad de Magritte para fusionar lo cotidiano con lo fantástico.",
     imageUrl: "https://example.com/el-hijo-del-hombre.jpg",
     author: "René Magritte",
     year: 1964,
@@ -228,10 +227,10 @@ const pinturas = [
     }
   },
   {
-    id: 16,
+    id: "16",
     name: "La dama del armiño",
     shortDescription: "Un retrato de Cecilia Gallerani por Leonardo da Vinci",
-    description: "La dama del armiño es un retrato pintado por Leonardo da Vinci alrededor de 1489-1490. La obra representa a Cecilia Gallerani, una joven noble de la corte de Milán, sosteniendo un armiño.",
+    description: "La dama del armiño es un retrato pintado por Leonardo da Vinci alrededor de 1489-1490. La obra representa a Cecilia Gallerani, una joven noble de la corte de Milán, sosteniendo un armiño. El retrato es conocido por su realismo y la sutileza en la representación de la piel y las telas, así como la expresión serena de la modelo. Es una de las cuatro obras femeninas de Leonardo que sobreviven.",
     imageUrl: "https://example.com/la-dama-del-ermino.jpg",
     author: "Leonardo da Vinci",
     year: 1490,
@@ -243,10 +242,10 @@ const pinturas = [
     }
   },
   {
-    id: 17,
+    id: "17",
     name: "La escuela de Atenas",
     shortDescription: "Un fresco de Rafael",
-    description: "La escuela de Atenas es un famoso fresco pintado por Rafael entre 1509 y 1511. La obra representa a los filósofos y científicos más importantes de la antigüedad clásica, reunidos en un majestuoso espacio arquitectónico.",
+    description: "La escuela de Atenas es un famoso fresco pintado por Rafael entre 1509 y 1511. La obra representa a los filósofos y científicos más importantes de la antigüedad clásica, reunidos en un majestuoso espacio arquitectónico. Es celebrada por su composición armoniosa y el uso del espacio para representar la convergencia del conocimiento. Esta pintura es una muestra del ideal renacentista de la simetría y el equilibrio.",
     imageUrl: "https://example.com/la-escuela-de-atenas.jpg",
     author: "Rafael",
     year: 1511,
@@ -258,10 +257,10 @@ const pinturas = [
     }
   },
   {
-    id: 18,
+    id: "18",
     name: "La noche estrellada sobre el Ródano",
     shortDescription: "Otra obra maestra de Vincent van Gogh",
-    description: "La noche estrellada sobre el Ródano es una pintura de Vincent van Gogh, creada en 1888. Representa la vista nocturna del río Ródano con las luces de la ciudad de Arles reflejadas en el agua.",
+    description: "La noche estrellada sobre el Ródano es una pintura de Vincent van Gogh, creada en 1888. Representa la vista nocturna del río Ródano con las luces de la ciudad de Arles reflejadas en el agua. La obra combina la fascinación de Van Gogh por el cielo nocturno con su interés por los efectos de la luz sobre el agua. Esta pintura destaca por su paleta de colores vivos y la técnica de pinceladas que transmite movimiento.",
     imageUrl: "https://example.com/la-noche-estrellada-sobre-el-rodano.jpg",
     author: "Vincent van Gogh",
     year: 1888,
@@ -273,10 +272,10 @@ const pinturas = [
     }
   },
   {
-    id: 19,
+    id: "19",
     name: "El jardín de las Hespérides",
     shortDescription: "Una obra de Frederic Leighton",
-    description: "El jardín de las Hespérides es una pintura del artista británico Frederic Leighton, creada en 1892. La obra representa una escena mitológica de las Hespérides, las ninfas que cuidaban el jardín con los manzanos dorados.",
+    description: "El jardín de las Hespérides es una pintura del artista británico Frederic Leighton, creada en 1892. La obra representa una escena mitológica de las Hespérides, las ninfas que cuidaban el jardín con los manzanos dorados. La pintura es notable por su atención al detalle y el uso de colores vibrantes para dar vida a la escena mitológica. Leighton, con su estilo minucioso, captura la esencia de la mitología clásica.",
     imageUrl: "https://example.com/el-jardin-de-las-hesperides.jpg",
     author: "Frederic Leighton",
     year: 1892,
@@ -288,10 +287,10 @@ const pinturas = [
     }
   },
   {
-    id: 20,
+    id: "20",
     name: "Impresión, sol naciente",
     shortDescription: "Una pintura de Claude Monet",
-    description: "Impresión, sol naciente es una pintura de Claude Monet, creada en 1872. La obra es famosa por haber dado nombre al movimiento impresionista y representa el puerto de Le Havre al amanecer.",
+    description: "Impresión, sol naciente es una pintura de Claude Monet, creada en 1872. La obra es famosa por haber dado nombre al movimiento impresionista y representa el puerto de Le Havre al amanecer. El uso suelto y rápido del pincel de Monet capta los efectos fugaces de la luz y el color, marcando un hito en el arte moderno. Esta pintura refleja la habilidad de Monet para captar la esencia del momento con sus pinceladas distintivas.",
     imageUrl: "https://example.com/impresion-sol-naciente.jpg",
     author: "Claude Monet",
     year: 1872,
@@ -300,14 +299,13 @@ const pinturas = [
       location: "Museo Marmottan Monet, París",
       medium: "Óleo sobre lienzo",
       dimensions: "48 cm × 63 cm"
-    },
-    extraInfo: "El título de la obra fue usado por primera vez en una exposición de 1874 que marcó el inicio del impresionismo."
+    }
   },
   {
-    id: 21,
+    id: "21",
     name: "El violinista azul",
     shortDescription: "Una obra de Marc Chagall",
-    description: "El violinista azul es una pintura del artista ruso-francés Marc Chagall, creada en 1947. La obra muestra a un violinista azul flotando en el aire, una imagen característica del estilo onírico de Chagall.",
+    description: "El violinista azul es una pintura del artista ruso-francés Marc Chagall, creada en 1947. La obra muestra a un violinista azul flotando en el aire, una imagen característica del estilo onírico de Chagall. La combinación de colores vivos y elementos surrealistas crean una atmósfera mágica y etérea, reflejando la capacidad de Chagall para fusionar lo cotidiano con lo fantástico en una composición única.",
     imageUrl: "https://example.com/el-violinista-azul.jpg",
     author: "Marc Chagall",
     year: 1947,
@@ -319,10 +317,10 @@ const pinturas = [
     }
   },
   {
-    id: 22,
+    id: "22",
     name: "La danza",
     shortDescription: "Una vibrante obra de Henri Matisse",
-    description: "La danza es una pintura de Henri Matisse, creada en 1910. La obra muestra a cinco figuras desnudas bailando en un círculo, con colores vivos y formas simplificadas que capturan el movimiento y la alegría.",
+    description: "La danza es una pintura de Henri Matisse, creada en 1910. La obra muestra a cinco figuras desnudas bailando en un círculo, con colores vivos y formas simplificadas que capturan el movimiento y la alegría. Matisse utiliza un uso audaz del color y las formas para transmitir energía y vitalidad, convirtiendo la danza en una celebración visual de la vida y la libertad. Esta obra es un ejemplo destacado del Fauvismo.",
     imageUrl: "https://example.com/la-danza.jpg",
     author: "Henri Matisse",
     year: 1910,
@@ -334,10 +332,10 @@ const pinturas = [
     }
   },
   {
-    id: 23,
+    id: "23",
     name: "El juramento de los Horacios",
     shortDescription: "Una obra neoclásica de Jacques-Louis David",
-    description: "El juramento de los Horacios es una pintura de Jacques-Louis David, creada en 1784. La obra representa una escena legendaria de la historia romana, donde los tres hermanos Horacios juran defender a Roma.",
+    description: "El juramento de los Horacios es una pintura de Jacques-Louis David, creada en 1784. La obra representa una escena legendaria de la historia romana, donde los tres hermanos Horacios juran defender a Roma. Con su composición clara y su enfoque en la moralidad y el deber, esta pintura es un ejemplo destacado del Neoclasicismo. David utiliza la luz y la postura para enfatizar el dramatismo y la solemnidad del momento.",
     imageUrl: "https://example.com/el-juramento-de-los-horacios.jpg",
     author: "Jacques-Louis David",
     year: 1784,
@@ -349,10 +347,10 @@ const pinturas = [
     }
   },
   {
-    id: 24,
+    id: "24",
     name: "La noche estrellada de nuevo",
     shortDescription: "Otra vista de La noche estrellada por Vincent van Gogh",
-    description: "Una segunda interpretación de La noche estrellada por Vincent van Gogh, creada en 1889. Similar a la primera, esta obra también representa una vista nocturna del cielo estrellado, pero con una composición ligeramente diferente.",
+    description: "Una segunda interpretación de La noche estrellada por Vincent van Gogh, creada en 1889. Similar a la primera, esta obra también representa una vista nocturna del cielo estrellado, pero con una composición ligeramente diferente. La pintura muestra la fascinación de Van Gogh por el cielo nocturno y su habilidad para capturar la emoción a través de vibrantes pinceladas y colores. Es otra manifestación de su genialidad en el postimpresionismo.",
     imageUrl: "https://example.com/la-noche-estrellada-de-nuevo.jpg",
     author: "Vincent van Gogh",
     year: 1889,
@@ -365,4 +363,4 @@ const pinturas = [
   }
 ];
 
-export default pinturas
+export default pinturas;
