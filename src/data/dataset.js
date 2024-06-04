@@ -1,378 +1,365 @@
-export default [
-  {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+const pinturas = [
+    {
+      id: "1_noche_estrellada",
+      name: "La noche estrellada",
+      shortDescription: "Una famosa pintura de Vincent van Gogh.",
+      description: "La noche estrellada es una de las obras más conocidas de Vincent van Gogh, representando una vista soñadora desde su asilo en Saint-Rémy-de-Provence. Captura el cielo nocturno con remolinos y estrellas brillantes, creando un efecto hipnótico. Pintada de memoria, refleja la lucha interna y esperanza del artista.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      author: "Vincent van Gogh",
+      year: 1889,
+      style: "Postimpresionismo",
+      facts: {
+        location: "Museo de Arte Moderno, Nueva York",
+        medium: "Óleo sobre lienzo",
+        dimensions: "73.7 cm × 92.1 cm"
+      },
+      extraInfo: "La pintura fue creada durante la estancia de Van Gogh en el asilo de Saint-Paul-de-Mausole."
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
-  },
-  {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    {
+      id: "2_mona_lisa",
+      name: "La Mona Lisa",
+      shortDescription: "Un retrato pintado por Leonardo da Vinci.",
+      description: "La Mona Lisa es un retrato de medio cuerpo por Leonardo da Vinci, considerada una obra maestra del Renacimiento italiano. Famosa por la expresión enigmática de la Gioconda y el uso del sfumato. Es 'la obra de arte más conocida, visitada, escrita, cantada y parodiada del mundo'.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/73/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%2C_Paris%29.jpg",
+      author: "Leonardo da Vinci",
+      year: 1503,
+      style: "Renacimiento",
+      facts: {
+        location: "Museo del Louvre, París",
+        medium: "Óleo sobre tabla de álamo",
+        dimensions: "77 cm × 53 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
-  },
-  {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    {
+      id: "3_el_grito",
+      name: "El Grito",
+      shortDescription: "Una icónica obra de Edvard Munch.",
+      description: "El Grito es una serie de cuadros del noruego Edvard Munch, creada en 1893. Muestra una figura angustiada en un paisaje vibrante. Se ha convertido en un símbolo universal de la ansiedad humana, reflejando el impacto emocional del aislamiento y la desesperación.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png",
+      author: "Edvard Munch",
+      year: 1893,
+      style: "Expresionismo",
+      facts: {
+        location: "Galería Nacional de Noruega, Oslo",
+        medium: "Óleo, temple y pastel sobre cartón",
+        dimensions: "91 cm × 73.5 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
-  },
-  {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    {
+      id: "4_ultima_cena",
+      name: "La última cena",
+      shortDescription: "Una obra maestra de Leonardo da Vinci.",
+      description: "La última cena es un mural de Leonardo da Vinci, creado entre 1495 y 1498. Representa la última cena de Jesús con sus discípulos, una de las imágenes más icónicas del arte religioso. Captura el momento en que Jesús anuncia su traición, y cada apóstol reacciona emocionalmente.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/300px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+      author: "Leonardo da Vinci",
+      year: 1498,
+      style: "Renacimiento",
+      facts: {
+        location: "Convento de Santa Maria delle Grazie, Milán",
+        medium: "Tempera y óleo sobre yeso",
+        dimensions: "460 cm × 880 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
-  },
-  {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    {
+      id: "5_persistencia_memoria",
+      name: "La persistencia de la memoria",
+      shortDescription: "Una pintura de Salvador Dalí.",
+      description: "La persistencia de la memoria es una pintura de 1931 por Salvador Dalí, una de sus obras más reconocidas. Exhibida en 1932 y en el MoMA desde 1934, presenta relojes derretidos en un paisaje onírico, simbolizando la relatividad del tiempo y la persistencia de los recuerdos.",
+      imageUrl: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbnljLTItMjY4LmpwZyIsInJlc2l6ZSw4MDAiXX0.oHuiNXMeCqBT1fa5I9ddteiMiKkLQ_e1lyF6l8uUsWo.jpg",
+      author: "Salvador Dalí",
+      year: 1931,
+      style: "Surrealismo",
+      facts: {
+        location: "Museo de Arte Moderno, Nueva York",
+        medium: "Óleo sobre lienzo",
+        dimensions: "24 cm × 33 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    {
+      id: "6_guernica",
+      name: "Guernica",
+      shortDescription: "Una poderosa obra de Pablo Picasso.",
+      description: "Guernica es un famoso mural pintado por Pablo Picasso en 1937. Es un testimonio contra la guerra, representando el bombardeo de Guernica durante la Guerra Civil Española. Con estilo cubista y figuras distorsionadas, captura el horror de la guerra, convirtiéndose en un ícono pacifista.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/640px-Mural_del_Gernika.jpg",
+      author: "Pablo Picasso",
+      year: 1937,
+      style: "Cubismo",
+      facts: {
+        location: "Museo Reina Sofía, Madrid",
+        medium: "Óleo sobre lienzo",
+        dimensions: "349 cm × 776 cm"
+      },
+      extraInfo: "La obra fue encargada para la Exposición Internacional de París de 1937."
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    {
+      id: "7_nacimiento_venus",
+      name: "El nacimiento de Venus",
+      shortDescription: "Una obra renacentista de Sandro Botticelli.",
+      description: "El nacimiento de Venus es una pintura de Sandro Botticelli, creada en la década de 1480. Representa a Venus emergiendo del mar como una mujer adulta. Es famosa por su belleza idealizada y la elegancia de sus líneas, capturando la esencia del Renacimiento y la mitología clásica.",
+      imageUrl: "https://www.visituffizi.org/img/artworks/botticelli-birth-venus.jpg",
+      author: "Sandro Botticelli",
+      year: 1485,
+      style: "Renacimiento",
+      facts: {
+        location: "Galería Uffizi, Florencia",
+        medium: "Tempera sobre lienzo",
+        dimensions: "172.5 cm × 278.9 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
-  },
-  {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    {
+      id: "8_las_meninas",
+      name: "Las Meninas",
+      shortDescription: "Una obra maestra de Diego Velázquez.",
+      description: "Las Meninas es una pintura de Diego Velázquez, creada en 1656. Conocida por su composición y uso de la perspectiva, representa a la infanta Margarita Teresa y sus damas de compañía en una escena del palacio real. Velázquez se retrata a sí mismo pintando la escena, desafiando las convenciones artísticas.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/99/Las_Meninas_01.jpg",
+      author: "Diego Velázquez",
+      year: 1656,
+      style: "Barroco",
+      facts: {
+        location: "Museo del Prado, Madrid",
+        medium: "Óleo sobre lienzo",
+        dimensions: "318 cm × 276 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
-  },
-  {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    {
+      id: "9_jardin_delicias",
+      name: "El jardín de las delicias",
+      shortDescription: "Un tríptico de Hieronymus Bosch.",
+      description: "El jardín de las delicias es un tríptico del pintor neerlandés Hieronymus Bosch, creado entre 1490-1510. Muestra una visión surrealista del paraíso, la vida terrenal y el infierno, con detalles fantásticos y simbolismo complejo que ha sido interpretado de diversas maneras a lo largo de los siglos.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jardin_delicias.jpg",
+      author: "Hieronymus Bosch",
+      year: 1505,
+      style: "Renacimiento",
+      facts: {
+        location: "Museo del Prado, Madrid",
+        medium: "Óleo sobre tabla",
+        dimensions: "220 cm × 389 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
-  },
-  {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+      id: "10_noche_estrellada_rhone",
+      name: "Noche estrellada sobre el Ródano",
+      shortDescription: "Una pintura nocturna de Vincent van Gogh.",
+      description: "Noche estrellada sobre el Ródano es una pintura de Vincent van Gogh creada en 1888. Captura la serenidad del cielo estrellado reflejado en el río Ródano en Arlés. Es una de las primeras obras en las que Van Gogh exploró el tema del cielo nocturno, mostrando su maestría en el uso del color y la luz.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Starry_Night_Over_the_Rhone.jpg",
+      author: "Vincent van Gogh",
+      year: 1888,
+      style: "Postimpresionismo",
+      facts: {
+        location: "Museo de Orsay, París",
+        medium: "Óleo sobre lienzo",
+        dimensions: "72.5 cm × 92 cm"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
-  },
-  {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
-  },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
-  },
-  {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
-  },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
-  },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
-  },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
-  },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
-  },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
-];
+      {
+        id: "11_el_beso_gustav_klimt",
+        name: "El beso",
+        shortDescription: "Obra icónica de Gustav Klimt",
+        description: "El beso es una pintura del artista simbolista Gustav Klimt, creada entre 1907 y 1908. La obra muestra a una pareja abrazándose, con elaborados patrones dorados y geométricos que los envuelven. La pintura es una celebración del amor y la intimidad, utilizando el dorado para crear una atmósfera etérea y casi divina. Es una de las obras más reconocidas y reproducidas de Klimt.",
+        imageUrl: "https://media.admagazine.com/photos/618a648c938f88774ad53f26/master/w_1600%2Cc_limit/75326.jpg",
+        author: "Gustav Klimt",
+        year: 1908,
+        style: "Simbolismo",
+        facts: {
+          location: "Galería Belvedere, Viena",
+          medium: "Óleo sobre lienzo",
+          dimensions: "180 cm × 180 cm"
+        }
+      },
+      {
+        id: "12_la_creacion_de_adan_miguel_angel",
+        name: "La creación de Adán",
+        shortDescription: "Parte de la Capilla Sixtina de Miguel Ángel",
+        description: "La creación de Adán es un fresco pintado por Miguel Ángel alrededor de 1512. Es una de las escenas más famosas de la bóveda de la Capilla Sixtina y representa el momento en que Dios da vida a Adán. La obra es conocida por la poderosa imagen de las manos casi tocándose, simbolizando el acto divino de la creación, y es una de las obras más icónicas del Renacimiento.",
+        imageUrl: "https://medialab.unmsm.edu.pe/chiqaqnews/wp-content/uploads/2021/01/adan.jpg",
+        author: "Miguel Ángel",
+        year: 1512,
+        style: "Renacimiento",
+        facts: {
+          location: "Capilla Sixtina, Ciudad del Vaticano",
+          medium: "Fresco",
+          dimensions: "280 cm × 570 cm"
+        }
+      },
+      {
+          id: "13_la_ronda_de_noche_rembrandt",
+          name: "La ronda de noche",
+          shortDescription: "Una pintura de Rembrandt",
+          description: "La ronda de noche es una famosa pintura de Rembrandt, creada en 1642. La obra representa a la milicia cívica de Ámsterdam en una escena animada y dinámica. Con su uso innovador de la luz y la sombra, Rembrandt da vida a la escena nocturna, destacando a los personajes principales con una luz dramática. Es una de las obras más destacadas del Barroco y muestra el talento de Rembrandt en la representación de la vida cotidiana.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/1200px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+          author: "Rembrandt",
+          year: 1642,
+          style: "Barroco",
+          facts: {
+            location: "Rijksmuseum, Ámsterdam",
+            medium: "Óleo sobre lienzo",
+            dimensions: "363 cm × 437 cm"
+          }
+        },
+        {
+          id: "14_la_libertad_guiando_al_pueblo_delacroix",
+          name: "La libertad guiando al pueblo",
+          shortDescription: "Una obra emblemática de Eugène Delacroix",
+          description: "La libertad guiando al pueblo es una pintura de Eugène Delacroix, creada en 1830. La obra conmemora la Revolución de Julio en Francia y muestra a la diosa de la libertad liderando al pueblo sobre las barricadas. Es una representación poderosa del espíritu revolucionario y un símbolo perdurable de libertad y resistencia. La figura de la Libertad es alegórica y ha influido en muchas representaciones de luchas por la libertad.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/800px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+          author: "Eugène Delacroix",
+          year: 1830,
+          style: "Romanticismo",
+          facts: {
+            location: "Museo del Louvre, París",
+            medium: "Óleo sobre lienzo",
+            dimensions: "260 cm × 325 cm"
+          }
+        },
+        {
+          id: "15_el_hijo_del_hombre_magritte",
+          name: "El hijo del hombre",
+          shortDescription: "Una pintura surrealista de René Magritte",
+          description: "El hijo del hombre es una famosa pintura de René Magritte, creada en 1964. La obra muestra a un hombre con un sombrero de bombín, cuyo rostro está cubierto por una manzana verde flotante. La imagen enigmática y provocativa desafía las percepciones y plantea preguntas sobre la identidad y la realidad. Esta obra es una de las más icónicas del surrealismo y refleja la habilidad de Magritte para fusionar lo cotidiano con lo fantástico.",
+          imageUrl: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvZjU5Zjk5YWI0Nzg0OWZjMDQ2MzNiOGYzZmJlZjVlM2MuanBnIiwicmVzaXplLDgwMCJdfQ.0NL9TMRSfnATqyIteTHZvFrQazj4xwBO__NPHHaQthg.jpg",
+          author: "René Magritte",
+          year: 1964,
+          style: "Surrealismo",
+          facts: {
+            location: "Colección privada",
+            medium: "Óleo sobre lienzo",
+            dimensions: "116 cm × 89 cm"
+          }
+        },
+        {
+          id: "16_la_dama_del_armino_da_vinci",
+          name: "La dama del armiño",
+          shortDescription: "Un retrato de Cecilia Gallerani por Leonardo da Vinci",
+          description: "La dama del armiño es un retrato pintado por Leonardo da Vinci alrededor de 1489-1490. La obra representa a Cecilia Gallerani, una joven noble de la corte de Milán, sosteniendo un armiño. El retrato es conocido por su realismo y la sutileza en la representación de la piel y las telas, así como la expresión serena de la modelo. Es una de las cuatro obras femeninas de Leonardo que sobreviven.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lady_with_an_Ermine_-_Leonardo_da_Vinci_%28adjusted_levels%29.jpg/1200px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_%28adjusted_levels%29.jpg",
+          author: "Leonardo da Vinci",
+          year: 1490,
+          style: "Renacimiento",
+          facts: {
+            location: "Museo Czartoryski, Cracovia",
+            medium: "Óleo sobre tabla",
+            dimensions: "54 cm × 39 cm"
+          }
+        },
+        {
+          id: "17_la_escuela_de_atenas_rafael",
+          name: "La escuela de Atenas",
+          shortDescription: "Fresco de Rafael",
+          description: "La escuela de Atenas es un fresco pintado por Rafael entre 1509 y 1511. Representa a los filósofos y científicos más importantes de la antigüedad clásica, reunidos en un majestuoso espacio arquitectónico. Esta obra es celebrada por su composición armoniosa y el uso del espacio para representar la convergencia del conocimiento, reflejando el ideal renacentista de la simetría y el equilibrio.",
+          imageUrl: "https://cdn.culturagenial.com/es/imagenes/la-escuela-de-atenas-de-rafael-sanzio-og.jpg",
+          author: "Rafael",
+          year: 1511,
+          style: "Renacimiento",
+          facts: {
+            location: "Stanza della Segnatura, Ciudad del Vaticano",
+            medium: "Fresco",
+            dimensions: "500 cm × 770 cm"
+          }
+        },
+        {
+          id: "18_la_noche_estrellada_sobre_el_rodano_vincent_van_gogh",
+          name: "La noche estrellada sobre el Ródano",
+          shortDescription: "Otra obra maestra de Vincent van Gogh",
+          description: "La noche estrellada sobre el Ródano es una pintura de Vincent van Gogh, creada en 1888. Representa la vista nocturna del río Ródano con las luces de la ciudad de Arles reflejadas en el agua. La obra combina la fascinación de Van Gogh por el cielo nocturno con su interés por los efectos de la luz sobre el agua. Destaca por su paleta de colores vivos y la técnica de pinceladas que transmite movimiento.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/01/Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          author: "Vincent van Gogh",
+          year: 1888,
+          style: "Postimpresionismo",
+          facts: {
+            location: "Museo de Orsay, París",
+            medium: "Óleo sobre lienzo",
+            dimensions: "72.5 cm × 92 cm"
+          }
+        },        
+        {
+          id: "19_el_jardin_de_las_hesperides_frederic_leighton",
+          name: "El jardín de las Hespérides",
+          shortDescription: "Obra de Frederic Leighton",
+          description: "El jardín de las Hespérides es una pintura de Frederic Leighton, creada en 1892. Representa una escena mitológica de las Hespérides, las ninfas que cuidaban el jardín con los manzanos dorados. Destaca por su atención al detalle y el uso de colores vibrantes para dar vida a la escena mitológica, capturando la esencia de la mitología clásica con un estilo minucioso.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Frederic_Leighton_-_The_Garden_of_the_Hesperides.jpg/771px-Frederic_Leighton_-_The_Garden_of_the_Hesperides.jpg",
+          author: "Frederic Leighton",
+          year: 1892,
+          style: "Prerrafaelita",
+          facts: {
+            location: "Museo Lady Lever Art Gallery, Reino Unido",
+            medium: "Óleo sobre lienzo",
+            dimensions: "188 cm × 123 cm"
+          }
+        },
+        {
+          id: "20_impresion_sol_naciente_claude_monet",
+          name: "Impresión, sol naciente",
+          shortDescription: "Pintura de Claude Monet",
+          description: "Impresión, sol naciente es una pintura de Claude Monet, creada en 1872. Famosa por haber dado nombre al movimiento impresionista, representa el puerto de Le Havre al amanecer. Captura los efectos fugaces de la luz y el color con pinceladas distintivas, marcando un hito en el arte moderno y reflejando la esencia del momento con maestría.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/300px-Monet_-_Impression%2C_Sunrise.jpg",
+          author: "Claude Monet",
+          year: 1872,
+          style: "Impresionismo",
+          facts: {
+            location: "Museo Marmottan Monet, París",
+            medium: "Óleo sobre lienzo",
+            dimensions: "48 cm × 63 cm"
+          }
+        },
+        {
+          id: "21_el_violinista_azul_marc_chagall",
+          name: "El violinista azul",
+          shortDescription: "Obra de Marc Chagall",
+          description: "El violinista azul es una pintura de Marc Chagall, creada en 1947. Muestra a un violinista azul flotando en el aire, característico del estilo onírico de Chagall. La combinación de colores vivos y elementos surrealistas crea una atmósfera mágica y etérea, fusionando lo cotidiano con lo fantástico en una composición única.",
+          imageUrl: "https://images.auctionet.com/thumbs/large_item_2635719_bb5be320d7.jpg",
+          author: "Marc Chagall",
+          year: 1947,
+          style: "Surrealismo",
+          facts: {
+            location: "Museo Guggenheim, Nueva York",
+            medium: "Óleo sobre lienzo",
+            dimensions: "98 cm × 65 cm"
+          }
+        },
+        {
+          id: "22_la_danza_henri_matisse",
+          name: "La danza",
+          shortDescription: "Obra de Henri Matisse",
+          description: "La danza es una pintura de Henri Matisse, creada en 1910. Muestra a cinco figuras desnudas bailando en un círculo, con colores vivos y formas simplificadas que capturan el movimiento y la alegría. Utiliza un audaz uso del color y las formas para transmitir energía y vitalidad, celebrando visualmente la vida y la libertad.",
+          imageUrl: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbWF0aXNzZS1kYW5jZS0xOTEwLmpwZyIsInJlc2l6ZSw4MDAiXX0.algQupJ4DIvcEXEX844h0yLi3sRIa_Sf9x5Zcjj8ei0.jpg",
+          author: "Henri Matisse",
+          year: 1910,
+          style: "Fauvismo",
+          facts: {
+            location: "Museo de Arte Moderno, Nueva York",
+            medium: "Óleo sobre lienzo",
+            dimensions: "260 cm × 391 cm"
+          }
+        },
+        {
+          id: "23_el_juramento_de_los_horacios_jacques-louis_david",
+          name: "El juramento de los Horacios",
+          shortDescription: "Jacques-Louis David retrata la lealtad a Roma",
+          description: "El juramento de los Horacios es una pintura de Jacques-Louis David, creada en 1784. Representa una escena legendaria de la historia romana, donde los tres hermanos Horacios juran defender a Roma. David, con su composición clara y su enfoque en la moralidad y el deber, establece un ejemplo destacado del Neoclasicismo, utilizando la luz y la postura para enfatizar el dramatismo y la solemnidad del momento.",
+          imageUrl: "https://static.wikia.nocookie.net/wikiart/images/3/35/Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg/revision/latest?cb=20110519140424&path-prefix=es",
+          author: "Jacques-Louis David",
+          year: 1784,
+          style: "Neoclasicismo",
+          facts: {
+            location: "Museo del Louvre, París",
+            medium: "Óleo sobre lienzo",
+            dimensions: "330 cm × 425 cm"
+          }
+        },
+        {
+          id: "24_la_gran_ola_de_kanagawa_katsushika_hokusai",
+          name: "La gran ola de Kanagawa",
+          shortDescription: "Katsushika Hokusai captura el poder de la naturaleza",
+          description: "La gran ola de Kanagawa, una obra maestra de Katsushika Hokusai, fue creada entre 1830 y 1833. Representa una ola gigante que se alza sobre tres barcas de pesca en la bahía de Kanagawa, con el monte Fuji visible en la distancia. Esta imagen icónica captura la fuerza y el poder de la naturaleza, así como la fragilidad de la vida humana. Considerada una de las obras más icónicas del arte japonés, ha sido reproducida e imitada en numerosas ocasiones.",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/1024px-The_Great_Wave_off_Kanagawa.jpg",
+          author: "Katsushika Hokusai",
+          year: "1830-1833",
+          style: "Ukiyo-e",
+          facts: {
+            location: "Variable (Museo Metropolitano de Arte, Museo Británico, Museo Nacional de Tokio)",
+            medium: "Grabado en madera",
+            dimensions: "73.7 cm × 92.1 cm"
+          }
+        }          
+  ];  
+  export default pinturas
