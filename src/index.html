@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Verse Mujeres increibles</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Data verse Mujeres increibles</h1>
+    </header>
+    
+    <main>
+        <section id="filter-section">
+            <h2>Filtro </h2>
+            <div>
+                <label for="field-select">Campo:</label>
+                <select id="field-select">
+                    <!-- Opciones de filtrado por campo -->
+                </select>
+            </div>
+            <div>
+                <label for="country-select">País:</label>
+                <select id="country-select">
+                    <!-- Opciones de filtrado por país -->
+                </select>
+            </div>
+            <div>
+                <label for="year-select">Año:</label>
+                <select id="year-select">
+                    <!-- Opciones de filtrado por año -->
+                </select>
+            </div>
+        </section>
+
+        <section id="women-list">
+            <!-- Aquí se cargarán dinámicamente los datos de las mujeres -->
+        </section>
+    </main>
+
+    <script src="dataset.js"></script> <!-- Incluye el archivo dataset.js -->
+    <script src="script.js"></script> <!-- Si necesitas scripts adicionales -->
+</body>
 </html>
+
