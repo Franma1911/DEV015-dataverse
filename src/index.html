@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dataverse </title>
+    <title>Dataverse</title>
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <header> 
-        <h1> Galeria de Arte </h1>
+    <header>
+        <h1>Galeria de Arte</h1>
     </header>
     <main>
-        <h2> Pinturas </h2>
-        <label for = "select-filter> Filtrar por corriente: </label>
-        <select data-testid="select-filter" name="style"> 
-        <option value = ""></option>    
-        <option value = "Surrealismo"> Surrealismo </option>
-        <option value = "Postimpresionismo"> Postimpresionismo </option>
-        <option value = "Renacimiento"> Renacimiento </option>
-        <option value = "Barroco"> Barroco </option>
-    </select>
-    <input type = "radio" name = "sort-order" value = "asc">
-    <label for = "sort-order"> Asc </label>
-    <input type = "radio" name = "sort-order" value = "desc">   
-    <label for = "sort-order"> Desc </label>
-    <button data-testid="button-clear"> </button>
+            <h2>Pinturas</h2>
+            <select data-testid="select-filter" name="style">
+                <label for="select-filter">Filtrar por corriente:</label>
+                <option value=""></option>    
+                <option value="Surrealismo">Surrealismo</option>
+                <option value="Postimpresionismo">Postimpresionismo</option>
+                <option value="Renacimiento">Renacimiento</option>
+                <option value="Barroco">Barroco</option>
+            </select>
+            <input type="radio" name="sort-order" value="asc" id="sort-asc">
+            <label for="sort-asc">Asc</label>
+            <input type="radio" name="sort-order" value="desc" id="sort-desc">
+            <label for="sort-desc">Desc</label>
+            <button data-testid="button-clear">Clear</button>
+            <ul>
+                <li itemtype="https://schema.org/Painting">Pintura 1</li>
+                <li itemtype="https://schema.org/Painting">Pintura 2</li>
+            </ul>
+        <section id="root"> </section>
     </main>
-    <footer> &copy Karen y Alhelí </footer>
+    <footer>&copy; Karen y Alhelí</footer>
     <script src="main.js" type="module"></script>
 </body>
 </html>
+
 
