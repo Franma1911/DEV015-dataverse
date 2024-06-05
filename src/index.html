@@ -12,7 +12,7 @@
     </header>
     <main>
         <h2> Pinturas </h2>
-        <label for = "sort-select"> Filtrar por corriente: </label>
+        <label for = "select-filter> Filtrar por corriente: </label>
         <select data-testid="select-filter" name="style"> 
         <option value = ""></option>    
         <option value = "Surrealismo"> Surrealismo </option>
@@ -20,10 +20,11 @@
         <option value = "Renacimiento"> Renacimiento </option>
         <option value = "Barroco"> Barroco </option>
     </select>
-    <label for = "sort-order"> Asc </label>
     <input type = "radio" name = "sort-order" value = "asc">
-    <label for = "sort-order"> Desc </label>
+    <label for = "sort-order"> Asc </label>
     <input type = "radio" name = "sort-order" value = "desc">   
+    <label for = "sort-order"> Desc </label>
+    <button data-testid="button-clear"> </button>
     </main>
     <footer> &copy Karen y Alhelí </footer>
     <script src="main.js" type="module"></script>
