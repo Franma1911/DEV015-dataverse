@@ -1,4 +1,4 @@
-const pinturas = [
+export default [
     {
       id: "1_noche_estrellada",
       name: "La noche estrellada",
@@ -60,7 +60,7 @@ const pinturas = [
         dimensions: "460 cm × 880 cm"
       }
     },
-   /* {
+   {
       id: "5_persistencia_memoria",
       name: "La persistencia de la memoria",
       shortDescription: "Una pintura de Salvador Dalí.",
@@ -360,6 +360,6 @@ const pinturas = [
             medium: "Grabado en madera",
             dimensions: "73.7 cm × 92.1 cm"
           }
-        }        */
+        }  
   ];  
-  export default pinturas
+
