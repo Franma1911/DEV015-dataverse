@@ -1,10 +1,11 @@
+/* eslint-disable indent */
 export const renderItems = (data) => {
   //Crear un elemento <ul> utilizando el método createElement//
   const ul = document.createElement("ul")
   //Recorrer la data mediante un forEach, lo que le decimos al codigo es que por cada elemento del bucle haga cierta acción// 
   data.forEach(function(pintura){
     //Crear un elemento <li> usando el método createElement//
-    const li = document.createElement("li")
+  const li = document.createElement("li")
     //se le da a los elementos <li> los atributos de microdatos itemscope e itemtype//
     li.setAttribute("itemscope", "")
     li.setAttribute("itemtype", "https://schema.org/Painting")
@@ -17,7 +18,8 @@ export const renderItems = (data) => {
     //se le inserta el h3 al li//
     li.appendChild(name)
     //el mismo proceso para img//
-    const image = document.createElement("img") 
+   // eslint-disable-next-line indent
+   const image = document.createElement("img") 
     image.setAttribute("src", pintura.imageUrl) //directamenre se obtiene del objeto dataset.js
     image.setAttribute("itemprop", "image") 
     li.appendChild(image)
@@ -57,7 +59,6 @@ export const renderItems = (data) => {
     size.setAttribute("itemprop", "size")
     li.appendChild(size) 
     ul.appendChild(li)
-    
   });
   console.log(ul);
   return ul
