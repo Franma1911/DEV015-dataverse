@@ -10,9 +10,9 @@
         <h1>Galeria de Arte</h1>
     </header>
     <main>
-        <h2> Pinturas </h2>
-        <label for = "style-select">Filtrar por Estilo</label>
-        <select data-testid="select-sort" name="style">
+        <h2>Pinturas</h2>
+        <label for = "select-sort">Filtrar por Estilo</label>
+        <select id="select-sort" data-testid="select-sort" name="style">
             <option value="">Selecciona un estilo</option>
             <option value= "Surrealismo">Surrealismo</option>
             <option value="Impresionismo">Impresionismo</option>
@@ -20,10 +20,12 @@
             <option value="Postimpresionismo">PostImpresionismo</option>
             <option value="Renacimiento">Renacimiento</option>
         </select>
-        <input type="radio" name="sort-order" value="asc">
+        <input type="radio" name="sort-order" value="asc" id="sort-asc">
         <label for="sort-asc">Asc</label>
-        <input type="radio" name="sort-order" value="desc">
-        <lavbel for="sort-desc">Desc</lavbel>
+        <input type="radio" name="sort-order" value="desc" id="sortdesc">
+        <label for="sort-desc">Desc</label>
+        <section id="root"></section>
+        <button data-testid="button-clear">Limpiar</button>
     </main>
     <script src="main.js" type="module"></script>
   </body>
