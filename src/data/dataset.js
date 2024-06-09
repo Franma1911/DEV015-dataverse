@@ -167,51 +167,6 @@ export default [
       }
     },
     {
-      id: "4_ultima_cena",
-      name: "La última cena",
-      shortDescription: "Una obra maestra de Leonardo da Vinci.",
-      description: "La última cena es un mural de Leonardo da Vinci, creado entre 1495 y 1498. Representa la última cena de Jesús con sus discípulos, una de las imágenes más icónicas del arte religioso. Captura el momento en que Jesús anuncia su traición, y cada apóstol reacciona emocionalmente.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/300px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
-      author: "Leonardo da Vinci",
-      year: 1498,
-      style: "Renacimiento",
-      facts: {
-        location: "Convento de Santa Maria delle Grazie, Milán",
-        medium: "Tempera y óleo sobre yeso",
-        dimensions: "460 cm × 880 cm"
-      }
-    },
-   {
-      id: "5_persistencia_memoria",
-      name: "La persistencia de la memoria",
-      shortDescription: "Una pintura de Salvador Dalí.",
-      description: "La persistencia de la memoria es una pintura de 1931 por Salvador Dalí, una de sus obras más reconocidas. Exhibida en 1932 y en el MoMA desde 1934, presenta relojes derretidos en un paisaje onírico, simbolizando la relatividad del tiempo y la persistencia de los recuerdos.",
-      imageUrl: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbnljLTItMjY4LmpwZyIsInJlc2l6ZSw4MDAiXX0.oHuiNXMeCqBT1fa5I9ddteiMiKkLQ_e1lyF6l8uUsWo.jpg",
-      author: "Salvador Dalí",
-      year: 1931,
-      style: "Surrealismo",
-      facts: {
-        location: "Museo de Arte Moderno, Nueva York",
-        medium: "Óleo sobre lienzo",
-        dimensions: "180 cm × 180 cm"
-      }
-    },
-    {
-      id: "12_la_creacion_de_adan_miguel_angel",
-      name: "La creación de Adán",
-      shortDescription: "Parte de la Capilla Sixtina de Miguel Ángel",
-      description: "La creación de Adán es un fresco pintado por Miguel Ángel alrededor de 1512. Es una de las escenas más famosas de la bóveda de la Capilla Sixtina y representa el momento en que Dios da vida a Adán. La obra es conocida por la poderosa imagen de las manos casi tocándose, simbolizando el acto divino de la creación, y es una de las obras más icónicas del Renacimiento.",
-      imageUrl: "https://medialab.unmsm.edu.pe/chiqaqnews/wp-content/uploads/2021/01/adan.jpg",
-      author: "Miguel Ángel",
-      year: 1512,
-      style: "Renacimiento",
-      facts: {
-        location: "Capilla Sixtina, Ciudad del Vaticano",
-        medium: "Fresco",
-        dimensions: "280 cm × 570 cm"
-      }
-    },
-    {
         id: "13_la_ronda_de_noche_rembrandt",
         name: "La ronda de noche",
         shortDescription: "Una pintura de Rembrandt",
@@ -391,4 +346,4 @@ export default [
           dimensions: "73.7 cm × 92.1 cm"
         }
       }          
-]; 
+];
