@@ -7,7 +7,7 @@ export const renderItems = (data) => {
     const card = document.createElement('li');
     card.setAttribute("itemscope", "")
     card.setAttribute("itemtype", "https://schema.org/Painting");
-    card.innerHTML = `
+    card.innerHTML= `
       <img src="${pintura.imageUrl}" alt="${pintura.name}" itemprop = "image">
       <h3 itemprop = "name">${pintura.name}</h3>
       <p itemprop="description">${pintura.shortDescription}</p>
@@ -18,6 +18,6 @@ export const renderItems = (data) => {
   `;
     ul.appendChild(card)
     console.log(ul);
-    return ul;
   })
+  return ul;
 };  
