@@ -161,24 +161,9 @@ export default [
       year: 1908,
       style: "Simbolismo",
       facts: {
-        location: "Galería Belvedere, Viena",
-        medium: "Óleo sobre lienzo",
-        dimensions: "180 cm × 180 cm"
-      }
-    },
-    {
-      id: "12_la_creacion_de_adan_miguel_angel",
-      name: "La creación de Adán",
-      shortDescription: "Parte de la Capilla Sixtina de Miguel Ángel",
-      description: "La creación de Adán es un fresco pintado por Miguel Ángel alrededor de 1512. Es una de las escenas más famosas de la bóveda de la Capilla Sixtina y representa el momento en que Dios da vida a Adán. La obra es conocida por la poderosa imagen de las manos casi tocándose, simbolizando el acto divino de la creación, y es una de las obras más icónicas del Renacimiento.",
-      imageUrl: "https://medialab.unmsm.edu.pe/chiqaqnews/wp-content/uploads/2021/01/adan.jpg",
-      author: "Miguel Ángel",
-      year: 1512,
-      style: "Renacimiento",
-      facts: {
-        location: "Capilla Sixtina, Ciudad del Vaticano",
-        medium: "Fresco",
-        dimensions: "280 cm × 570 cm"
+        location: "Galería Nacional de Noruega, Oslo",
+        medium: "Óleo, temple y pastel sobre cartón",
+        dimensions: "91 cm × 73.5 cm"
       }
     },
     {
@@ -361,4 +346,4 @@ export default [
           dimensions: "73.7 cm × 92.1 cm"
         }
       }          
-]; 
+];
