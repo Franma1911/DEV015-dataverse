@@ -17,7 +17,7 @@ export const renderItems = (data) => {
       <p itemprop="location"><strong>Ubicación:</strong> ${pintura.facts.location}</p>
   `;
     ul.appendChild(card)
-    console.log(ul);
-  })
+  });
+  console.log(ul);
   return ul;
 };  

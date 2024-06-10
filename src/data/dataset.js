@@ -137,18 +137,18 @@ export default [
     }
   },
   {
-    id: "10_noche_estrellada_rhone",
-    name: "Noche estrellada sobre el Ródano",
-    shortDescription: "Una pintura nocturna de Vincent van Gogh.",
-    description: "Noche estrellada sobre el Ródano es una pintura de Vincent van Gogh creada en 1888. Captura la serenidad del cielo estrellado reflejado en el río Ródano en Arlés. Es una de las primeras obras en las que Van Gogh exploró el tema del cielo nocturno, mostrando su maestría en el uso del color y la luz.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Starry_Night_Over_the_Rhone.jpg",
-    author: "Vincent van Gogh",
-    year: 1888,
-    style: "Postimpresionismo",
+    id: "10_barco_vapor_tormenta",
+    name: "Barco a vapor en tormenta",
+    shortDescription: "Una pintura de un barco enfrentando una tormenta marina.",
+    description: "Barco a vapor en tormenta es una obra maestra de J.M.W. Turner creada en 1842. La pintura captura la intensidad de una tormenta marina con un barco de vapor luchando contra las olas turbulentas y el cielo tempestuoso. Turner utiliza su habilidad magistral para capturar el movimiento del agua y la atmósfera dramática del paisaje marino, mostrando su dominio en la representación de fenómenos naturales.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Joseph_Mallord_William_Turner_-_Dutch_Boats_in_a_Gale_-_WGA23181.jpg/800px-Joseph_Mallord_William_Turner_-_Dutch_Boats_in_a_Gale_-_WGA23181.jpg",
+    author: "J.M.W. Turner",
+    year: 1842,
+    style: "Romanticismo",
     facts: {
-      location: "Museo de Orsay, París",
+      location: "Tate Britain, Londres",
       medium: "Óleo sobre lienzo",
-      dimensions: "72.5 cm × 92 cm"
+      dimensions: "91 cm × 122 cm"
     }
   },
     {
