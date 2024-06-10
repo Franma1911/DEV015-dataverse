@@ -16,8 +16,11 @@ export const renderItems = (data) => {
       <p itemprop="genre"><strong>Estilo:</strong> ${pintura.style}</p>
       <p itemprop="location"><strong>Ubicación:</strong> ${pintura.facts.location}</p>
   `;
+    //agregar tarjeta al ul//
     ul.appendChild(card)
   });
-  console.log(ul);
-  return ul;
+  //obtener el elemento en donde se insertarán la ul con las tarjetas//
+  const section = document.getElementById("root")
+  //agregar el elemento ul al section//
+  section.appendChild(ul)
 };  
