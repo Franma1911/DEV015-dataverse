@@ -21,6 +21,7 @@ export const renderItems = (data) => {
   });
   //obtener el elemento en donde se insertarán la ul con las tarjetas//
   const section = document.getElementById("root")
+  section.innerHTML = ""
   //agregar el elemento ul al section//
   section.appendChild(ul)
 };  
