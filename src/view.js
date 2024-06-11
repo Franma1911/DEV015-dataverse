@@ -8,7 +8,7 @@ export const renderItems = (data) => {
     card.setAttribute("itemscope", "")
     card.setAttribute("itemtype", "https://schema.org/Painting");
     card.innerHTML= `
-      <img src="${pintura.imageUrl}" alt="${pintura.name}" itemprop = "image">
+      <img src="${pintura.imageUrl}" alt="${pintura.name}" itemprop = "image"/s>
       <h3 itemprop = "name">${pintura.name}</h3>
       <p itemprop="description">${pintura.shortDescription}</p>
       <p itemprop="creator"><strong>Autor:</strong> ${pintura.author}</p>

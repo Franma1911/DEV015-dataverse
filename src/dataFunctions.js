@@ -5,11 +5,10 @@ export const filterData = function(data, filterBy, value){
     return data }
 };
 export const sortData = function(data, sortBy, sortOrder){
-  const dataCopie = data.slice()
-  dataCopie.sort((a,b)=>{
+  const copiedData = data.map((pinturas)=>pinturas)
+  copiedData.sort((a,b)=>{
     if(sortOrder === "asc"){
       return (a.year - b.year);
     } else { return (b.year - a.year )}
   });
-  return dataCopie
-};
+  return copiedData}
