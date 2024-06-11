@@ -23,5 +23,5 @@ export const renderItems = (data) => {
   const section = document.getElementById("root");
   section.innerHTML = "";
   //agregar el elemento ul al section//
-  section.appendChild(ul);
-};
+  return section.appendChild(ul) };
+renderItems
